@@ -101,7 +101,7 @@ autoreconf -fiv
 
 %configure \
 	--enable-static \
-	--with-ssl \
+	--without-ssl \
 	--with-gnutls \
 	--with-zlib \
 	--with-lber-lib=lber \
